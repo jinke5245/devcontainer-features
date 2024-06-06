@@ -1,0 +1,18 @@
+{
+    "conan@latest": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "conan": {
+                "version": "latest"
+            }
+        }
+    },
+    "conan@1": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "conan": {
+                "version": "1.64.1"
+            }
+        }
+    }
+}
