@@ -14,6 +14,7 @@ jobs:
       matrix:
         features:
           - conan
+          - git-repo
         baseImage:
           - debian:latest
           - ubuntu:latest
@@ -34,6 +35,7 @@ jobs:
       matrix:
         features:
           - conan
+          - git-repo
     steps:
       - uses: actions/checkout@v3
 
