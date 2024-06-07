@@ -17,6 +17,7 @@ jobs:
           - git-repo
           - vim
           - tig
+          - bazel
         baseImage:
           - debian:latest
           - ubuntu:latest
@@ -40,6 +41,7 @@ jobs:
           - git-repo
           - vim
           - tig
+          - bazel
     steps:
       - uses: actions/checkout@v3
 
