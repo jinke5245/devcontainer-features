@@ -1,0 +1,10 @@
+{
+    "id": "vim",
+    "version": "0.0.1",
+    "name": "vim (via apt-get)",
+    "description": "A highly configurable text editor built to make creating and changing any kind of text very efficient",
+    "options": {},
+    "installsAfter": [
+        "ghcr.io/devcontainers-contrib/features/apt-get-packages"
+    ]
+}

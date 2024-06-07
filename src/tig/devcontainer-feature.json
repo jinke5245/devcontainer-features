@@ -1,0 +1,10 @@
+{
+    "id": "tig",
+    "version": "0.0.1",
+    "name": "tig (via apt-get)",
+    "description": "An ncurses-based text-mode interface for git",
+    "options": {},
+    "installsAfter": [
+        "ghcr.io/devcontainers-contrib/features/apt-get-packages"
+    ]
+}
