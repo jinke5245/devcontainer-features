@@ -1,13 +1,13 @@
 
-# git-repo (via googleapis) (git-repo)
+# tig (via apt-get) (tig)
 
-repo is a tool built on top of Git
+An ncurses-based text-mode interface for git
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/jinke5245/devcontainer-features/git-repo:0": {}
+    "ghcr.io/jinke5245/devcontainer-features/tig:0": {}
 }
 ```
 

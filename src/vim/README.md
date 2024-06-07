@@ -1,13 +1,13 @@
 
-# git-repo (via googleapis) (git-repo)
+# vim (via apt-get) (vim)
 
-repo is a tool built on top of Git
+A highly configurable text editor built to make creating and changing any kind of text very efficient
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/jinke5245/devcontainer-features/git-repo:0": {}
+    "ghcr.io/jinke5245/devcontainer-features/vim:0": {}
 }
 ```
 
