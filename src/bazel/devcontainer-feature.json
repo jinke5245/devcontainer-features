@@ -16,5 +16,12 @@
     "installsAfter": [
         "ghcr.io/devcontainers-contrib/features/npm-package",
         "ghcr.io/devcontainers/features/node"
-    ]
+    ],
+    "customizations":{
+        "vscode": {
+            "extensions": [
+                "bazelbuild.vscode-bazel"
+            ]
+        }
+    }
 }
