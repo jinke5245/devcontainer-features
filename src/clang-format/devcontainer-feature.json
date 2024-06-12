@@ -1,0 +1,17 @@
+{
+    "id": "clang-format",
+    "version": "0.0.1",
+    "name": "clang-format (via apt-get)",
+    "description": "clang-format is a tool to format C/C++/... code according to a set of rules and heuristics",
+    "options": {},
+    "installsAfter": [
+        "ghcr.io/devcontainers-contrib/features/apt-get-packages"
+    ],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "xaver.clang-format"
+            ]
+        }
+    }
+}

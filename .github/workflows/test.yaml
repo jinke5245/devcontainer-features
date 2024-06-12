@@ -18,6 +18,8 @@ jobs:
           - vim
           - tig
           - bazel
+          - clang-format
+          - clangd
         baseImage:
           - debian:latest
           - ubuntu:latest
@@ -42,6 +44,8 @@ jobs:
           - vim
           - tig
           - bazel
+          - clang-format
+          - clangd
     steps:
       - uses: actions/checkout@v3
 

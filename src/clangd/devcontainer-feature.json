@@ -1,0 +1,20 @@
+{
+    "id": "clangd",
+    "version": "0.0.1",
+    "name": "clangd (via apt-get)",
+    "description": "A language server that can work with many editors via a plugin",
+    "options": {},
+    "installsAfter": [
+        "ghcr.io/devcontainers-contrib/features/apt-get-packages"
+    ],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "llvm-vs-code-extensions.vscode-clangd"
+            ],
+            "settings": {
+                "C_Cpp.intelliSenseEngine": "disabled"
+            }
+        }
+    }
+}
