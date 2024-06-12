@@ -1,0 +1,19 @@
+{
+    "id": "capnproto",
+    "version": "0.0.1",
+    "name": "capnproto (via curl)",
+    "description": "An insanely fast data interchange format and capability-based RPC system",
+    "options": {
+        "version": {
+            "default": "1.0.2",
+            "description": "select the version to install.",
+            "proposals": [
+                "1.0.2"
+            ],
+            "type": "string"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
